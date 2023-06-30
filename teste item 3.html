@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
-    <title> Noxus - Catalogos </title>
+    <title>Noxus</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/tooplate-main.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/flex-slider.css">
 <!--
 Tooplate 2114 Pixie
 https://www.tooplate.com/view/2114-pixie
@@ -38,13 +39,13 @@ https://www.tooplate.com/view/2114-pixie
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Destaque</a>
+            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Destaques
+              <a class="nav-link" href="products.html">Animes
                 <span class="sr-only">(current)</span>
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products.html">Animes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html"></a>
@@ -58,60 +59,49 @@ https://www.tooplate.com/view/2114-pixie
     </nav>
 
     <!-- Page Content -->
-    <!-- Banner Starts Here -->
-    <div class="banner">
-    </div>
-    <!-- Banner Ends Here -->
-
-    <!-- Featured Starts Here -->
-    <div class="featured-items">
+    <!-- Single Starts Here -->
+    <div class="single-product">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
               <div class="line-dec"></div>
-              <h1>Animes em Destaque </h1>
+              <h1>Naruto Classico</h1>
             </div>
           </div>
-          <div class="col-md-12">
-            <div class="owl-carousel owl-theme">
-              <a href="teste item 1.html">
-                <div class="featured-item">
-                  <img src="https://vortexcultural.com.br/images/2017/09/deathnotetop.jpg" alt="Item 1">
-                  <h4> Death Note </h4>
-                  
+          <div class="col-md-6">
+            <div class="product-slider">
+              <div id="slider" class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img src="https://static.anroll.net/images/animes/capas/naruto-dublado.jpg" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-content">
+              <h4>Naruto Classico</h4>
+              <p>A Vila Oculta da Folha é lar dos ninjas mais sorrateiros. Mas doze anos atrás, uma temível Raposa de Nove Caudas aterrorizou a vila, até ser derrotada e selada no corpo de um garoto recém-nascido. </p>
+              </form>
+              <div class="down-content">
+                <div class="categories">
+              
+                <div class="share">
+                  <h6>Share: <span><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></h6>
                 </div>
-              </a>
-              <a href="teste item 2.html">
-                <div class="featured-item">
-                  <img src="https://upload.wikimedia.org/wikipedia/pt/7/74/Dragon_Ball_Super_Key_visual.jpg " alt="Item 2">
-                  <h4> DragonBall Super</h4>
-                  
-                </div>
-              </a>
-              <a href="teste item 3.html">
-                <div class="featured-item">
-                  <img src="https://static.anroll.net/images/animes/capas/naruto-dublado.jpg" alt="Item 3">
-                  <h4> Naruto Classico</h4>
-                </div>
-              </a>
-              <a href="teste item 4.html">
-                <div class="featured-item">
-                  <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/01ec367b44f0a568430a957e042639af.jpe" alt="Item 4">
-                  <h4> Naruto Shippuden </h4>
-                </div>
-              </a>
-                </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Single Page Ends Here -->
+
+
+
     
-
-
-   
     <!-- Subscribe Form Ends Here -->
 
 
@@ -152,20 +142,7 @@ https://www.tooplate.com/view/2114-pixie
     <!-- Footer Ends Here -->
 
 
-    <!-- Sub Footer Starts Here -->
-    <div class="sub-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="copyright-text">
-              <p>Copyright &copy; 2019 Company Name 
-                
-                - Design: <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+ 
     <!-- Sub Footer Ends Here -->
 
 
@@ -177,6 +154,8 @@ https://www.tooplate.com/view/2114-pixie
     <!-- Additional Scripts -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/owl.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/flex-slider.js"></script>
 
 
     <script language = "text/Javascript"> 
